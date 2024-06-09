@@ -1,0 +1,62 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+  padding: 2rem !important;
+}
+
+.projectIntro {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.projectsWrapper {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+  margin: 2rem 0;
+
+  border: 2px solid black;
+  padding: 0.7rem;
+  border-radius: 0.4rem;
+}
+
+.project {
+  border: 2px solid black;
+  border-radius: 0.4rem;
+  padding: 0.2rem 1rem !important;
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project:hover {
+  background-color: black;
+  color: white;
+}
+
+.project:nth-child(1) {
+  background-color: black;
+  color: white;
+}
+
+.project:nth-child(1):hover {
+  background-color: white;
+  color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .projectIntro {
+    font-size: 1rem;
+  }
+
+  .projectsWrapper {
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+  }
+}

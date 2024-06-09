@@ -1,0 +1,49 @@
+.wrapper {
+  position: relative;
+  height: 120vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: fit-content;
+}
+
+.wrapper::before {
+  content: "";
+  background-image: url("/static/images/chart-background.jpg");
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.55;
+}
+
+.homeContent {
+  font-family: "Source Code Pro", monospace;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  color: black;
+  opacity: 1;
+}
+
+.titleUnderline {
+  position: relative;
+  bottom: -5px; /* Adjust this value to control the distance of the line from the text */
+  left: 0;
+  width: 5rem; /* Adjust this value to control the width of the line */
+  height: 3px; /* Adjust this value to control the thickness of the line */
+  background-color: black; /* Adjust this value to control the color of the line */
+}
+
+@media only screen and (max-width: 768px) {
+  .pageTitle {
+    font-size: 1.5rem;
+  }
+}

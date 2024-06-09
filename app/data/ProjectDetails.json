@@ -1,0 +1,351 @@
+{
+  "MarketAnalysis": {
+    "title": "Market Analysis and Search Engine Recommendation System",
+    "body": [
+      {
+        "title": "Data info",
+        "body": "In this project, I conducted a comprehensive data analysis and built a search recommendation system using an Amazon e-commerce dataset. The dataset comprises 1,465 entries with 16 features, including product information, pricing, user reviews, and ratings. Each entry details attributes such as product ID, name, category, discounted and actual prices, discount percentage, rating and count, user details, and review content. After exploring the data along with some interesting analysis, I implemented a recommendation engine to enhance the user shopping experience by suggesting relevant products based on search words that match a product’s description. This project showcases my expertise in data analysis, machine learning.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/1.png",
+            "width": 400,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "title": "Statistical description",
+        "body": "To begin the analysis, I performed routine data cleaning, which involved removing any NaN values to ensure the integrity of the dataset. Post-cleaning, I focused on preprocessing the data by converting the relevant columns from object types to float values. This conversion was crucial for enabling accurate statistical operations. Additionally, I created new columns to enhance the dataset's usability: the discount price, and the main and sub-category columns derived by splitting the original category column. The table above presents descriptive statistics of key numerical features, including discounted price, actual price, discount percentage, and discount value, providing insights into the dataset's distribution and central tendencies.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/2.png",
+            "width": 600,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "title": "Distribution of discounted percentages and actual prices",
+        "body": "The visualizations above depict the distribution of discount percentages and actual prices. The left plot illustrates that most products have discount percentages ranging between 30% and 70%, with a normal distribution around the mean. The right plot highlights the distribution of actual prices, revealing a right-skewed pattern with most products priced under ₹20,000, while a few high-end items significantly elevate the maximum price.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/3.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Box plot: Price distribution",
+        "body": "The box plot displays the distribution of prices sold across various main product categories. \"Electronics\" and \"Home&Kitchen\" exhibit the widest range and highest prices, with several significant outliers, particularly in the \"Electronics\" category, which includes a maximum price point near 140,000. In contrast, categories such as \"MusicalInstruments,\" \"OfficeProducts,\" \"Toys&Games,\" \"Car&Motorbike,\" and \"Health&PersonalCare\" show much lower price distributions, with most values concentrated near the lower end of the price scale and minimal outliers. The plot highlights substantial variability in pricing within the \"Electronics\", \"Home&Kitchen\" and “Computer Accessories\" categories.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/4.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Main category bar chart",
+        "body": "The bar chart illustrates the frequency distribution of products across various main categories in ascending order. \"Electronics\" is the most frequently occurring category with over 500 products, followed by \"Home&Kitchen\" and \"Computers&Accessories,\" each with more than 400 products. The remaining categories have significantly lower frequencies, indicating a substantial disparity in the distribution of products among these categories.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/5.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Sub category bar chart",
+        "body": "The bar chart here shows the frequency of products within subcategories. \"Accessories&Peripherals\" is the most populated subcategory with nearly 350 products. Other high-frequency subcategories include \"Networking Devices,\" \"Home Theater, TV & Video,\" \"Home Audio,\" and \"Wearable Technology,\" each having over 150 products. The chart demonstrates significant variability within subcategories, highlighting that while some subcategories like \"Accessories&Peripherals\" are highly populated, many others, such as \"Power Accessories,\" \"Tablets,\" and \"Home Medical Supplies & Equipment,\" have notably fewer products.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/6.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "computer accessories__1",
+        "body": "Two visual analysis of the \"Computer & Accessories\" category. The first which is a bar chart shows that \"Accessories & Peripherals\" dominate the category by count, significantly outnumbering all other subcategories. The second visual, a boxplot reveals that while this subcategory has a low price range, \"Laptops\" have the highest prices with a wide range, followed by \"Monitors.\" Other subcategories like \"Networking Devices\" and \"External Devices & Data Storage\" have moderate and consistent price ranges.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/7a.png",
+            "width": 1200,
+            "height": 600
+          },
+          {
+            "link": "/static/images/MarketAnalysis/7b.png",
+            "width": 600,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "title": "Electronics_1",
+        "body": "The bar chart illustrates that \"Mobiles & Accessories\" and \"Home Theater, TV & Video\" are the most populated subcategories in Electronics by product count. In contrast, \"Home Audio\" and \"Power Accessories\" have the fewest products. The boxplot shows that \"Home Theater, TV & Video\" has a wide price range with significant outliers, indicating high price variability. \"Mobiles & Accessories\" also exhibit a broad price range, albeit with fewer extreme outliers. Other subcategories, such as \"Home Audio\" and \"Power Accessories,\" have lower and more consistent price ranges.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/8.png",
+            "width": 1200,
+            "height": 600
+          },
+          {
+            "link": "/static/images/MarketAnalysis/8b.png",
+            "width": 600,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "title": "Search recommendation system.",
+        "body": "To build the recommendation system, I employed natural language processing (NLP) techniques, including word tokenization and stop word removal, to process the textual data. Utilizing sklearn's TfidfVectorizer, I transformed the text data into numerical representations, capturing the importance of words within the corpus. I then applied cosine similarity to measure the similarity between the search query and product descriptions. This approach enabled the recommendation system to suggest relevant products based on user search terms. For instance, when the search term \"charger\" was used, the system effectively recommended a list of chargers, as shown in the table above. These NLP tools and machine learning techniques ensured accurate and relevant product recommendations, enhancing the user experience.",
+        "images": [
+          {
+            "link": "/static/images/MarketAnalysis/9.png",
+            "width": 1200,
+            "height": 300
+          }
+        ]
+      }
+    ]
+  },
+
+  "CarPricePrediction": {
+    "title": "Car Price Prediction",
+    "body": [
+      {
+        "title": "Data info & Description",
+        "body": "In this project, I developed a linear regression model to predict car prices using a dataset comprising 205 entries with 26 features, including car specifications and performance metrics such as engine size, horsepower, fuel type, and city mileage. The dataset, as shown in the image, includes both numerical and categorical variables. Before building the regression model, I conducted exploratory data analysis (EDA) to understand the relationships between some of these independent variables and the target variable. This step was crucial for effective feature engineering and selection, ensuring the model's accuracy and reliability.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/1a.png",
+            "width": 700,
+            "height": 600
+          },
+          {
+            "link": "/static/images/CarPricePrediction/1b.png",
+            "width": 1100,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Car price Histogram",
+        "body": "To initiate the exploratory data analysis (EDA), I examined the distribution and spread of car prices using histograms and boxplots. The histogram reveals a right-skewed distribution, indicating that most car prices are clustered in the lower range, with a peak around $10,000. The boxplot further illustrates the spread of car prices, highlighting a median price around $10,000 and a significant number of outliers above $30,000. These visualizations provide initial understanding into the central tendency and variability of car prices, setting the stage for deeper analysis and informed feature selection in the subsequent modeling process.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/2.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Car brand, fuel type and...",
+        "body": "Continuing with the EDA, I analyzed the distribution of car brands, fuel types, and car body types. The first histogram shows that Toyota is the most common brand in the dataset, followed by Nissan, Mazda, and Mitsubishi. The second histogram reveals a significant predominance of gasoline-fueled cars compared to diesel. Lastly, the third histogram indicates that sedans are the most frequent car body type, followed by hatchbacks, with wagons, hardtops, and convertibles being less common. These insights help in understanding the composition of the dataset, aiding in feature selection and engineering for the regression model.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/3.png",
+            "width": 1200,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "title": "engine type, etc... vs Average price",
+        "body": "The provided visualizations illustrate the relationship between various car attributes (fuel type, car body type, and engine type) and their average prices. The first bar chart indicates that cars using diesel fuel tend to have a higher average price compared to those using gas. The second chart shows that among different car body types, hardtops and convertibles command the highest average prices, followed by sedans, wagons, and hatchbacks. The third chart demonstrates that cars with a \"dohcv\" engine type have the highest average price, followed by \"ohcv\" and \"dohc.\"",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/4.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Engine type hist and box plot",
+        "body": "The histogram on the left illustrates the frequency of each engine type, highlighting that \"ohc\" is the most common engine type and its by a large margin compared to the rest. The boxplot on the right shows the relationship between engine type and price, revealing significant price variation within each category. Notably, \"ohcv\" engines have the highest median price and a wide price range, indicating substantial variability. This helps in understanding market preferences and price distributions related to different engine types.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/5.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Car brand average price",
+        "body": "The bar chart reveals that Jaguar cars have the highest average price, followed closely by Buick and Porsche. BMW, Audi, Mercury, and Alfa-Romeo also feature prominently with relatively high average prices. In contrast, manufacturers like Chevrolet, Dodge, and Plymouth are on the lower end of the pricing spectrum.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/6.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Scatter horsepower and peak rpm",
+        "body": "The two scatter plots compare the relationships between car price and two different variables: horsepower (left plot) and peak RPM (right plot). The left plot exhibits a noticeable positive correlation between horsepower and price, indicating that cars with higher horsepower tend to have higher prices. This clear upward trend suggests that horsepower is a strong predictor of car prices. In contrast, the right plot, which shows the relationship between peak RPM and price, displays a more scattered distribution of data points without a discernible trend, implying that peak RPM does not significantly correlate with car price. Therefore, horsepower is a better fit as a feature for linear regression and peak rpm would be dismissed as a feature in predicting car prices.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/7.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": " Scatter, engine size and borratio",
+        "body": "The two scatter plots compare the relationships between car price and two different variables: engine size (left plot) and bore ratio (right plot). The left plot shows a clear positive correlation between engine size and price, indicating that cars with larger engine sizes tend to have higher prices, evident from the upward trend in the data points. In contrast, the right plot, which illustrates the relationship between bore ratio and price, exhibits a more dispersed pattern without a clear trend, suggesting that bore ratio does not significantly correlate with car price.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/8.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Regression line",
+        "body": "After conducting exploratory data analysis (EDA) and feature engineering, I developed a linear regression model to predict car prices. The scatter plot above shows the relationship between actual and predicted car prices. The points closely align along the diagonal dashed line, indicating a strong correlation and suggesting that the model has performed well in capturing the underlying patterns of the data. The model's predictions are reasonably accurate, validating its effectiveness in estimating car prices based on the selected features.",
+        "images": [
+          {
+            "link": "/static/images/CarPricePrediction/9.png",
+            "width": 1000,
+            "height": 600
+          }
+        ]
+      }
+    ]
+  },
+  "AfricaGdpAnalysis": {
+    "title": "Africa GDP Analysis",
+    "body": [
+      {
+        "title": "Statistical summary",
+        "body": "The statistical summary reveals the GDP data consists of 1,179 entries with a mean of approximately $362 billion and a standard deviation indicating substantial variation among countries. The population data encompasses 1,334 entries, revealing an average population of about 184 million with a significant range from as low as 5,144 to over 2.1 billion.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/1.png",
+            "width": 700,
+            "height": 300
+          }
+        ]
+      },
+      {
+        "title": "GDP per capita",
+        "body": "As you’ll notice, I developed another variable, GDP per capita, by dividing the GDP (USD) by the population for each entry in the dataset. This new column provides a per-person economic measure, giving a clearer picture of the average economic output per individual within each country.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/1.png",
+            "width": 600,
+            "height": 700
+          }
+        ]
+      },
+      {
+        "title": "Regional summary",
+        "body": "I coded a function to generate the regional summary for any specified year called up by the user. The image displays the regional summary for the year 2021, detailing the population, GDP (USD), and GDP per capita for each region.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/3.png",
+            "width": 600,
+            "height": 400
+          }
+        ]
+      },
+      {
+        "title": "Pie charts:",
+        "body": "The accompanying pie charts visually represent the regional summary’s data, for the same specified year. It shows the distribution of population, GDP, and GDP per capita across different African regions.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/4.png",
+            "width": 1200,
+            "height": 600
+          }
+        ]
+      },
+      {
+        "title": "Choropleth map",
+        "body": "I developed a function that generates a choropleth map depicting GDP per capita across African countries for any specified year in the dataset. The map for 2022 showcases economic disparities with a color gradient ranging from dark purple to bright yellow, representing low to high GDP per capita, respectively. This gradient effectively highlights wealthier regions in lighter shades, while darker shades indicate areas with lower GDP per capita.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/5.png",
+            "width": 800,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "title": "GDP bar chart ranking",
+        "body": "As part of the regional analysis, I developed a function that generates a bar chart to rank the GDP of countries within a specified region for any given year. This function filters the dataset based on the input year and region, then sorts the countries by their GDP in descending order.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/6.png",
+            "width": 1400,
+            "height": 700
+          }
+        ]
+      },
+      {
+        "title": "GDP Per Capita ranking",
+        "body": "In addition to the GDP ranking, I extended the analysis to include a function that generates a bar chart ranking countries within a specified region based on their GDP per capita for any given year.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/7.png",
+            "width": 1400,
+            "height": 700
+          }
+        ]
+      },
+      {
+        "title": "Population trends",
+        "body": "Moving on from the region to analyzing trends for the country, I developed a function to visualize the population growth trend of any specified country over the years. This function enables the user to select a country and generate a line plot that displays the changes in population from 2000 to 2022.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/8.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "title": "GDP Per capita trends",
+        "body": "A similar function was developed to visualize the GDP per capita trend for any specified country over the years.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/9a.png",
+            "width": 1200,
+            "height": 800
+          },
+          {
+            "link": "/static/images/AfricaGdpAnalysis/9b.png",
+            "width": 1200,
+            "height": 800
+          }
+        ]
+      },
+      {
+        "title": "GDP-Population correlation",
+        "body": "In this final phase of the national analysis, I conducted a correlation analysis between GDP and population for each specified country over the years. Utilizing Seaborn's regplot function, I generated scatterplots with a linear regression line to visualize the relationship between GDP and population. Additionally, I calculated the Pearson correlation coefficient to quantify the strength and direction of this relationship.",
+        "images": [
+          {
+            "link": "/static/images/AfricaGdpAnalysis/10a.png",
+            "width": 1000,
+            "height": 800
+          },
+          {
+            "link": "/static/images/AfricaGdpAnalysis/10b.png",
+            "width": 1000,
+            "height": 800
+          }
+        ]
+      }
+    ]
+  }
+}

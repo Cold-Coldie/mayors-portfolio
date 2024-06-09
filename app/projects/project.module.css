@@ -1,0 +1,10 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  font-family: "Source Code Pro", monospace;
+}
+
+.projectHeadingWrapper {
+  text-align: center;
+  font-size: 2rem;
+}
