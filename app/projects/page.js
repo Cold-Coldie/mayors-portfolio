@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./project.module.css";
-import ProjectCard from "./component/ProjectCard";
+import ProjectCard from "./component/projectCard/ProjectCard";
 
 const page = () => {
   return (
@@ -59,7 +59,41 @@ const page = () => {
           githubLink={
             "https://github.com/Mayorfele/AFRICA-GDP-POPULATION-ANALYSIS"
           }
-          key={2}
+          key={3}
+        />
+
+        <ProjectCard
+          imageOne={"/static/images/CreditRiskAnalysis/1a.png"}
+          imageTwo={"/static/images/CreditRiskAnalysis/2.png"}
+          imageThree={"/static/images/CreditRiskAnalysis/3.png"}
+          imageFour={"/static/images/CreditRiskAnalysis/4.png"}
+          imageFive={"/static/images/CreditRiskAnalysis/5.png"}
+          altText={"Credit Risk Analysis"}
+          projectTitle={"Credit Risk Analysis"}
+          projectShortInfo={
+            "In this project, I developed a logistic regression model to predict loan status (approved or denied) using a comprehensive dataset of over 32,000 entries, encompassing 12 variables including applicant information, financial indicators, and loan details. The dataset, as shown in the data summary, includes both numerical and categorical variables. I carried out some feature engineering as a precursor to building the model.  Feature engineering essentially involves creating and selecting relevant variables that better capture the underlying relationships in the data, thereby improving the model's predictive accuracy and interpretability."
+          }
+          detailsLink={"/projects/CreditRiskAnalysis"}
+          githubLink={
+            "https://github.com/Mayorfele/Credit-Risk-Prediction-Model"
+          }
+          key={4}
+        />
+
+        <ProjectCard
+          imageOne={"/static/images/SportAnalysis/1.png"}
+          imageTwo={"/static/images/SportAnalysis/4a.png"}
+          imageThree={"/static/images/SportAnalysis/5.png"}
+          imageFour={"/static/images/SportAnalysis/7.png"}
+          imageFive={"/static/images/SportAnalysis/8.png"}
+          altText={"Sport Analysis"}
+          projectTitle={"Sport Analysis"}
+          projectShortInfo={
+            "In this sports analytics project, I analyzed a comprehensive dataset encompassing matches played in the English Premier League (EPL), the data spanning from the 1993/94 season through the 2017/18 season includes detailed match records with columns representing the division, date, home team, away team, full-time home team goals, full-time away team goals, half-time home team goals, half-time away team goals, half-time result, and season. This project aims to uncover trends from 25 years of EPL data, providing valuable analysis for teams, analysts, and fans alike."
+          }
+          detailsLink={"/projects/SportAnalysis"}
+          githubLink={"https://github.com/Mayorfele/Sport-Analytics"}
+          key={5}
         />
       </div>
     </main>

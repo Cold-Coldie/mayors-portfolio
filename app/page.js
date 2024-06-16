@@ -1,4 +1,3 @@
-import ProjectImages from "./component/projectImages/ProjectImages";
 import ProjectsNav from "./component/projectsNav/ProjectsNav";
 import styles from "./page.module.css";
 
@@ -12,8 +11,6 @@ export default function Home() {
         </div>
 
         <ProjectsNav />
-
-        <ProjectImages />
       </div>
     </main>
   );

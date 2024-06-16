@@ -27,6 +27,7 @@ const page = () => {
                   src={item2?.link}
                   width={item2?.width}
                   height={item2?.height}
+                  alt={item2?.title || `Image ${index2 + 1}`}
                 />
               ))}
             </div>

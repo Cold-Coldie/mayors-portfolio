@@ -39,7 +39,6 @@ const ProjectCard = ({
             <Image
               src={imageOne}
               alt={altText}
-              className={styles.carouselImage}
               height={250}
               width={500}
               priority
@@ -58,7 +57,6 @@ const ProjectCard = ({
             <Image
               src={imageThree}
               alt={altText}
-              className={styles.carouselImage}
               height={250}
               width={500}
               priority
@@ -77,7 +75,6 @@ const ProjectCard = ({
             <Image
               src={imageFive}
               alt={altText}
-              className={styles.carouselImage}
               height={250}
               width={500}
               priority

@@ -33,3 +33,19 @@
   gap: 2rem;
   align-items: center;
 }
+
+.individualImageWrapper img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .pageBody {
+    padding: 0.5rem;
+  }
+
+  .individualWrapper {
+    margin: 2rem 0;
+  }
+}

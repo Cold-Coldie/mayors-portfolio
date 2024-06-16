@@ -8,8 +8,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/1.png",
-            "width": 400,
-            "height": 300
+            "width": 406,
+            "height": 341
           }
         ]
       },
@@ -19,8 +19,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/2.png",
-            "width": 600,
-            "height": 300
+            "width": 605,
+            "height": 235
           }
         ]
       },
@@ -30,8 +30,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/3.png",
-            "width": 1200,
-            "height": 600
+            "width": 1263,
+            "height": 550
           }
         ]
       },
@@ -41,8 +41,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/4.png",
-            "width": 1200,
-            "height": 600
+            "width": 1657,
+            "height": 864
           }
         ]
       },
@@ -52,8 +52,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/5.png",
-            "width": 1200,
-            "height": 600
+            "width": 1241,
+            "height": 703
           }
         ]
       },
@@ -63,8 +63,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/6.png",
-            "width": 1200,
-            "height": 600
+            "width": 1629,
+            "height": 983
           }
         ]
       },
@@ -74,13 +74,13 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/7a.png",
-            "width": 1200,
-            "height": 600
+            "width": 1484,
+            "height": 584
           },
           {
             "link": "/static/images/MarketAnalysis/7b.png",
-            "width": 600,
-            "height": 400
+            "width": 606,
+            "height": 239
           }
         ]
       },
@@ -90,13 +90,13 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/8.png",
-            "width": 1200,
-            "height": 600
+            "width": 1484,
+            "height": 584
           },
           {
             "link": "/static/images/MarketAnalysis/8b.png",
-            "width": 600,
-            "height": 400
+            "width": 624,
+            "height": 254
           }
         ]
       },
@@ -106,8 +106,8 @@
         "images": [
           {
             "link": "/static/images/MarketAnalysis/9.png",
-            "width": 1200,
-            "height": 300
+            "width": 870,
+            "height": 159
           }
         ]
       }
@@ -123,13 +123,13 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/1a.png",
-            "width": 700,
-            "height": 600
+            "width": 516,
+            "height": 494
           },
           {
             "link": "/static/images/CarPricePrediction/1b.png",
-            "width": 1100,
-            "height": 600
+            "width": 726,
+            "height": 430
           }
         ]
       },
@@ -139,8 +139,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/2.png",
-            "width": 1200,
-            "height": 600
+            "width": 2000,
+            "height": 800
           }
         ]
       },
@@ -150,8 +150,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/3.png",
-            "width": 1200,
-            "height": 400
+            "width": 2500,
+            "height": 600
           }
         ]
       },
@@ -161,8 +161,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/4.png",
-            "width": 1200,
-            "height": 600
+            "width": 2000,
+            "height": 800
           }
         ]
       },
@@ -172,8 +172,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/5.png",
-            "width": 1200,
-            "height": 600
+            "width": 2000,
+            "height": 800
           }
         ]
       },
@@ -183,8 +183,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/6.png",
-            "width": 1200,
-            "height": 600
+            "width": 2000,
+            "height": 800
           }
         ]
       },
@@ -194,8 +194,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/7.png",
-            "width": 1200,
-            "height": 600
+            "width": 1500,
+            "height": 450
           }
         ]
       },
@@ -205,8 +205,8 @@
         "images": [
           {
             "link": "/static/images/CarPricePrediction/8.png",
-            "width": 1200,
-            "height": 600
+            "width": 1500,
+            "height": 450
           }
         ]
       },
@@ -232,8 +232,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/1.png",
-            "width": 700,
-            "height": 300
+            "width": 651,
+            "height": 138
           }
         ]
       },
@@ -242,9 +242,9 @@
         "body": "As you’ll notice, I developed another variable, GDP per capita, by dividing the GDP (USD) by the population for each entry in the dataset. This new column provides a per-person economic measure, giving a clearer picture of the average economic output per individual within each country.",
         "images": [
           {
-            "link": "/static/images/AfricaGdpAnalysis/1.png",
-            "width": 600,
-            "height": 700
+            "link": "/static/images/AfricaGdpAnalysis/2.png",
+            "width": 440,
+            "height": 327
           }
         ]
       },
@@ -254,8 +254,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/3.png",
-            "width": 600,
-            "height": 400
+            "width": 352,
+            "height": 163
           }
         ]
       },
@@ -265,8 +265,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/4.png",
-            "width": 1200,
-            "height": 600
+            "width": 1778,
+            "height": 519
           }
         ]
       },
@@ -276,8 +276,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/5.png",
-            "width": 800,
-            "height": 800
+            "width": 500,
+            "height": 400
           }
         ]
       },
@@ -287,8 +287,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/6.png",
-            "width": 1400,
-            "height": 700
+            "width": 1301,
+            "height": 704
           }
         ]
       },
@@ -298,8 +298,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/7.png",
-            "width": 1400,
-            "height": 700
+            "width": 1124,
+            "height": 704
           }
         ]
       },
@@ -309,8 +309,8 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/8.png",
-            "width": 1200,
-            "height": 800
+            "width": 850,
+            "height": 550
           }
         ]
       },
@@ -320,13 +320,13 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/9a.png",
-            "width": 1200,
-            "height": 800
+            "width": 837,
+            "height": 550
           },
           {
             "link": "/static/images/AfricaGdpAnalysis/9b.png",
-            "width": 1200,
-            "height": 800
+            "width": 862,
+            "height": 550
           }
         ]
       },
@@ -336,13 +336,198 @@
         "images": [
           {
             "link": "/static/images/AfricaGdpAnalysis/10a.png",
-            "width": 1000,
-            "height": 800
+            "width": 726,
+            "height": 467
           },
           {
             "link": "/static/images/AfricaGdpAnalysis/10b.png",
-            "width": 1000,
-            "height": 800
+            "width": 715,
+            "height": 468
+          }
+        ]
+      }
+    ]
+  },
+  "CreditRiskAnalysis": {
+    "title": "Credit Risk Analysis",
+    "body": [
+      {
+        "title": "Info before feature engineering",
+        "body": "In this project, I developed a logistic regression model to predict loan status (approved or denied) using a comprehensive dataset of over 32,000 entries, encompassing 12 variables including applicant information, financial indicators, and loan details. The dataset, as shown in the data summary, includes both numerical and categorical variables. I carried out some feature engineering as a precursor to building the model.  Feature engineering essentially involves creating and selecting relevant variables that better capture the underlying relationships in the data, thereby improving the model's predictive accuracy and interpretability.",
+        "images": [
+          {
+            "link": "/static/images/CreditRiskAnalysis/1a.png",
+            "width": 536,
+            "height": 286
+          },
+          {
+            "link": "/static/images/CreditRiskAnalysis/1b.png",
+            "width": 748,
+            "height": 234
+          }
+        ]
+      },
+      {
+        "title": "Info after feature engineering",
+        "body": "The dataset underwent extensive data cleaning and feature engineering, resulting in the creation of new features such as loan group, age range, loan-to-employment ratio, and loan-to-income ratio. Missing values were imputed with their mean values to ensure data integrity. The prepared dataset, as shown in the data summary, is now primed for the data preprocessing stage, setting the foundation for accurate loan status prediction.",
+        "images": [
+          {
+            "link": "/static/images/CreditRiskAnalysis/2.png",
+            "width": 552,
+            "height": 369
+          }
+        ]
+      },
+      {
+        "title": "Data preprocessing",
+        "body": "In preparing the dataset for loan status classification, I first defined the loan status as the target variable and designated the remaining variables as independent features. The dataset was then split into training and testing subsets. To handle categorical variables, I utilized the one-hot encoder and employed “get_feature_names_out” to streamline the encoding process. Numerical variables were scaled using scikit-learn's StandardScaler. This comprehensive preprocessing approach, which included encoding categorical data and scaling numerical data, culminated in a well-prepared dataset ready for classification. The image above illustrates the transformed variables following these preprocessing steps.",
+        "images": [
+          {
+            "link": "/static/images/CreditRiskAnalysis/3.png",
+            "width": 512,
+            "height": 276
+          }
+        ]
+      },
+      {
+        "title": "CAT, LGB, XGB",
+        "body": "To evaluate the performance of various machine learning models for loan status prediction, I trained and tested three models: XGBoost, CatBoost, and LightGBM. The XGBoost model achieved an accuracy of 93.66%, precision of 95.82%, recall of 73.96%, and specificity of 91.11%. The CatBoost model yielded an accuracy of 93.52%, precision of 97.33%, recall of 71.12%, and specificity of 95.44%. Finally, the LightGBM model produced an accuracy of 94.33%, precision of 97.39%, recall of 71.98%, and specificity of 93.99%. These results demonstrate the efficacy of gradient boosting algorithms in accurately predicting loan statuses, with LightGBM showing the highest overall accuracy among the three.",
+        "images": [
+          {
+            "link": "/static/images/CreditRiskAnalysis/4.png",
+            "width": 686,
+            "height": 415
+          }
+        ]
+      },
+      {
+        "title": "ROC Curve",
+        "body": "The Receiver Operating Characteristic (ROC) curve for the loan status prediction model illustrates the trade-off between the true positive rate (sensitivity) and the false positive rate (1-specificity). The area under the curve (AUC) is 0.95, indicating a high level of model performance. A higher AUC value closer to 1.0 signifies excellent discrimination capability of the model in distinguishing between approved and denied loans. This ROC curve demonstrates the robustness of the model in accurately predicting loan statuses with minimal false positives.",
+        "images": [
+          {
+            "link": "/static/images/CreditRiskAnalysis/5.png",
+            "width": 659,
+            "height": 441
+          }
+        ]
+      }
+    ]
+  },
+  "SportAnalysis": {
+    "title": "Sport Analysis",
+    "body": [
+      {
+        "title": "Dataset overview",
+        "body": "In this sports analytics project, I analyzed a comprehensive dataset encompassing matches played in the English Premier League (EPL), the data spanning from the 1993/94 season through the 2017/18 season includes detailed match records with columns representing the division, date, home team, away team, full-time home team goals, full-time away team goals, half-time home team goals, half-time away team goals, half-time result, and season. This project aims to uncover trends from 25 years of EPL data, providing valuable analysis for teams, analysts, and fans alike.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/1.png",
+            "width": 598,
+            "height": 332
+          }
+        ]
+      },
+      {
+        "title": "Revised dataset overview",
+        "body": "As you might have noticed that there are some missing values in the dataset, therefore I refined the data to cover matches from the 2010/11 to the 2017/18 seasons. This revised dataset ensures completeness and accuracy, enhancing the quality of the analysis aimed at uncovering insights and trends from recent EPL history, and providing valuable analysis for teams, analysts, and fans alike.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/2.png",
+            "width": 562,
+            "height": 341
+          }
+        ]
+      },
+      {
+        "title": "Goal ranking",
+        "body": "To kick off my analysis, I examined the basic statistical summary and information of the dataset. My first operation was to develop a function that generates a goal ranking table for any specified season within the dataset. The resulting table, as shown in the image, ranks teams based on their goal difference. It includes columns for the team name, goals scored, goals conceded, goal difference, and overall rank. This functionality may allow users to quickly and easily assess team performance by goals for any selected season, providing valuable insights into each team's offensive and defensive capabilities.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/3.png",
+            "width": 562,
+            "height": 512
+          }
+        ]
+      },
+      {
+        "title": "Goal ranking visuals",
+        "body": "Continuing with the goal ranking analysis, I developed a function to visualize the goal ranking data for any specified season in the dataset. This function generates three bar charts: one for goals scored (blue), another for goals conceded (red), and a third for goal difference. The goal difference chart uses blue for teams with positive values and red for negative values, providing a clear visual distinction of each team's performance.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/4a.png",
+            "width": 1384,
+            "height": 584
+          },
+          {
+            "link": "/static/images/SportAnalysis/4b.png",
+            "width": 1384,
+            "height": 584
+          }
+        ]
+      },
+      {
+        "title": "Home team ranking table",
+        "body": "I developed a function that ranks teams based on the number of home wins for a specified season. The table showcases the output for the 2017-2018 season, with Manchester City leading with 16 home wins, followed by Arsenal and Manchester United with 15 each. The function effectively highlights the home performance of each team, providing valuable insights into their home game success.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/5.png",
+            "width": 1160,
+            "height": 615
+          }
+        ]
+      },
+      {
+        "title": "Home team ranking bar chart",
+        "body": "The bar chart shows the graphic representation of the function of the previous operation.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/6.png",
+            "width": 272,
+            "height": 527
+          }
+        ]
+      },
+      {
+        "title": "League table",
+        "body": "The next step involved developing a function to generate a comprehensive league table for any specified season. This function calculates and displays several key metrics for each team: total matches played, goals scored, goals conceded, wins, draws, losses, and points collected. The points, a crucial metric for ranking, are used to determine each team's position in the table. The resulting league table provides a detailed overview of team performance for that season.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/7.png",
+            "width": 630,
+            "height": 510
+          }
+        ]
+      },
+      {
+        "title": "Position changes for a team across seasons (Chelsea)",
+        "body": "This operation is an interesting one as we are trying to investigate a trend of the ranking position of a team specified by a user, through the course of the seasons within the dataset. The image above shows the positional trend of Chelsea, as called by the user. This operation is cool because it allows for quick and simple access to the performance of a club across seasons. As we can see Chelsea in the 2014-15 season, finished 1st place at the end of the season, but plummeted to 10th in 15/16 until they regained the top spot in 16/17.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/8.png",
+            "width": 984,
+            "height": 584
+          }
+        ]
+      },
+      {
+        "title": "Man-United position change",
+        "body": "So, the same function also displays the position changes, but this time it's Manchester united that’s called up by the user.",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/9.png",
+            "width": 984,
+            "height": 584
+          }
+        ]
+      },
+      {
+        "title": "Comparing positional changes of two different teams",
+        "body": "Lastly, a uniquely interesting operation was carried out. I was able to build a function that allows a user to input two teams in a bid to compare their performances on the league table ranking across seasons. For this example, Manchester united and Chelsea were picked, the red being Man united while blue represents Chelsea. \nNOTE: Other teams can be called up by the user",
+        "images": [
+          {
+            "link": "/static/images/SportAnalysis/10.png",
+            "width": 984,
+            "height": 584
           }
         ]
       }

@@ -16,6 +16,11 @@
   height: 18rem;
 }
 
+.carouselItem img {
+  width: 95%;
+  border-radius: 0.5rem;
+}
+
 .projectTitle {
   text-align: center;
   margin-top: 2rem;
@@ -71,10 +76,5 @@
   .individualProject {
     width: 80vw;
     /* padding: 3rem; */
-  }
-
-  .carouselItem .carouselImage {
-    width: 350px;
-    height: 200px;
   }
 }
