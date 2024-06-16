@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "./ProjectsNav.module.css";
+import Link from "next/link";
 
 const projects = [
   { label: "Show all", link: "/projects" },
-  { label: "World Cup Stats.", link: "/projects/world-cup" },
-  { label: "Population Analysis", link: "/projects/population-analysis" },
-  { label: "Group Analysis", link: "/projects/group-analysis" },
+  { label: "Sport Analysis", link: "/projects/SportAnalysis" },
+  { label: "Africa GDP Analysis", link: "/projects/AfricaGdpAnalysis" },
+  { label: "Market Analysis", link: "/projects/MarketAnalysis" },
 ];
 
 const ProjectsNav = () => {
@@ -17,9 +18,9 @@ const ProjectsNav = () => {
 
       <div className={styles.projectsWrapper}>
         {projects?.map((item, index) => (
-          <div key={index} className={styles.project}>
+          <Link href={item?.link} key={index} className={styles.project}>
             {item?.label}
-          </div>
+          </Link>
         ))}
       </div>
     </div>

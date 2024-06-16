@@ -1,6 +1,6 @@
 .wrapper {
   position: relative;
-  height: 120vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   align-items: center;
@@ -27,7 +27,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 5rem;
+  margin-top: 2rem;
   font-size: 2rem;
   color: black;
   opacity: 1;
@@ -43,6 +43,10 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .wrapper {
+    height: 120vh;
+  }
+
   .pageTitle {
     font-size: 1.5rem;
   }
