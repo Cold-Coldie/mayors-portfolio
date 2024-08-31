@@ -1,9 +1,9 @@
-import ProjectsNav from "./component/projectsNav/ProjectsNav";
-import ToolsNav from "./component/toolsNav/ToolsNav";
-import styles from "./page.module.css";
+import React from "react";
+import ProjectDetailsPage from "./ProjectDetailsPage";
 
 export const metadata = {
-  title: "Home Page | About Oyewumi Mayowa | Data Analyst & Scientist",
+  title:
+    "Project Details Page | About Oyewumi Mayowa | Data Analyst & Scientist",
   description:
     "Learn more about Oyewumi Mayowa, a dedicated data analyst with over two years of experience in Python and data science.",
   keywords: "data analyst, data science, Python, Oyewumi Mayowa",
@@ -13,7 +13,8 @@ export const metadata = {
     apple: "/apple-touch-icon.png",
   },
   openGraph: {
-    title: "Home Page | About Oyewumi Mayowa | Data Analyst & Scientist",
+    title:
+      "Project Details Page | About Oyewumi Mayowa | Data Analyst & Scientist",
     description:
       "Discover the journey of Oyewumi Mayowa, a passionate data analyst and scientist.",
     url: "https://mayor-portfolio.netlify.app/",
@@ -36,22 +37,8 @@ export const metadata = {
   // },
 };
 
-export default function Home() {
-  const pageTitle = "MAYOR'S PORTFOLIO";
-  return (
-    <>
-      <main className={styles.wrapper}>
-        <div className={styles.homeContent}>
-          <div className={styles.pageTitle}>
-            {pageTitle}
-            <div className={styles.titleUnderline}></div>
-          </div>
+const page = () => {
+  return <ProjectDetailsPage />;
+};
 
-          <ProjectsNav />
-
-          <ToolsNav />
-        </div>
-      </main>
-    </>
-  );
-}
+export default page;

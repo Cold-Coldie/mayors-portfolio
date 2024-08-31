@@ -103,9 +103,9 @@ const ProjectCard = ({
             <Link href={githubLink} target="_blank">
               <span className={styles.githubButton}>
                 <Image
-                  src={"/static/icons/github.svg"}
-                  width={25}
-                  height={25}
+                  src={"/static/icons/github-with-border.svg"}
+                  width={30}
+                  height={30}
                   alt="GitHub icon"
                 />
               </span>

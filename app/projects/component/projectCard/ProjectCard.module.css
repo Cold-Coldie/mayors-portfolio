@@ -65,11 +65,7 @@
 .githubButton {
   display: flex;
   align-items: center;
-  border-radius: 50%;
-  padding: 0.3rem;
   cursor: pointer;
-  background-color: black;
-  color: white;
 }
 
 @media only screen and (max-width: 900px) {
