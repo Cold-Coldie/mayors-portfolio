@@ -17,7 +17,7 @@ export const metadata = {
       "Project Details Page | About Oyewumi Mayowa | Data Analyst & Scientist",
     description:
       "Discover the journey of Oyewumi Mayowa, a passionate data analyst and scientist.",
-    url: "https://mayor-portfolio.netlify.app/",
+    url: "https://mayors-portfolio.netlify.app/",
     images: [
       {
         url: "/static/images/profile-picture.jpg",
