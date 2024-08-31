@@ -10,11 +10,11 @@ const projects = [
 ];
 
 const ProjectsNav = () => {
+  const projectIntro = "A glimpse of the projects I've been working on";
+
   return (
     <div className={styles.wrapper}>
-      <div className={styles.projectIntro}>
-        A glimpse of the projects I've been working on
-      </div>
+      <div className={styles.projectIntro}>{projectIntro}</div>
 
       <div className={styles.projectsWrapper}>
         {projects?.map((item, index) => (

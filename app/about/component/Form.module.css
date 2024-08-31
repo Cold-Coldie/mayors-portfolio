@@ -1,0 +1,60 @@
+.contactCard {
+  background-color: #f9f9f9;
+  color: black;
+  width: 30vw;
+  position: relative;
+  border-radius: 1rem;
+  padding: 2rem;
+  min-height: fit-content !important;
+  margin: 3rem 0;
+  border: 1px solid #ccc;
+}
+
+.contactCard h2 {
+  font-weight: 500;
+}
+
+.inputWrapper {
+  display: grid;
+  border-bottom: 1px solid black;
+  margin: 1.5rem 0;
+}
+
+.inputWrapper span {
+  color: gray;
+  font-size: 0.8rem;
+}
+
+.inputWrapper .astericks {
+  color: red;
+}
+
+.inputWrapper input,
+.inputWrapper textarea {
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+}
+
+.contactCard button {
+  border: none;
+  border-radius: 1rem;
+  padding: 1rem 1rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  .contactCard {
+    margin: 3rem 1rem;
+    width: 100%;
+  }
+}

@@ -7,6 +7,10 @@ body {
   padding: 0;
 }
 
+.children {
+  margin-top: 7rem;
+}
+
 /* :root {
   --max-width: 1100px;
   --border-radius: 12px;

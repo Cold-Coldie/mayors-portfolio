@@ -6,7 +6,7 @@ import ProjectDetails from "../../data/ProjectDetails.json";
 import Image from "next/image";
 import styles from "./ProjectDetails.module.css";
 
-const page = () => {
+const ProjectDetailsPage = () => {
   const { id } = useParams();
 
   return (
@@ -38,4 +38,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default ProjectDetailsPage;

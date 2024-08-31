@@ -1,19 +1,86 @@
 .pageContainer {
   width: 100vw;
-  height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: "Source Code Pro", monospace;
 }
 
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .imageWrapper img {
+  object-fit: cover;
   border-radius: 50%;
   transform: scale(0.7);
 }
 
-.textWrapper {
+.name {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
 }
+
+.downloadResume {
+  margin: 1rem 0 2rem 0;
+  text-align: center;
+}
+
+.downloadResume a {
+  font-size: 1.2rem;
+  color: #0070f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.downloadResume a:hover {
+  text-decoration: underline;
+}
+
+/* START: FOR THE CHAT */
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin: 0 1rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.message {
+  display: flex;
+  margin: 10px 0;
+}
+
+.question {
+  justify-content: flex-start;
+}
+
+.response {
+  justify-content: flex-end;
+}
+
+.messageBubble {
+  max-width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  color: #333;
+}
+
+.questionBubble {
+  background-color: #e1ffc7;
+  text-align: left;
+}
+
+.responseBubble {
+  background-color: #d1e7ff;
+  text-align: right;
+}
+/* END: FOR THE CHAT */
 
 .socialsWrapper {
   display: flex;
@@ -38,4 +105,12 @@
 
 .socials img {
   cursor: pointer;
+}
+
+.socials .tooltip {
+  position: absolute;
+  background-color: rgb(255, 229, 229);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  transform: translate(-90px, -60px);
 }

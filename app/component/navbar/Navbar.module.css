@@ -1,12 +1,12 @@
 .wrapper {
   display: flex;
-  padding: 2rem 4rem;
+  padding: 2rem 0;
   font-family: "Source Code Pro", monospace;
   font-optical-sizing: auto;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1;
-  max-width: 100vw;
+  z-index: 100;
+  width: 100vw;
 
   /* From https://css.glass */
   background: rgba(255, 255, 255, 0.12);
@@ -17,6 +17,7 @@
 
 .logo {
   font-size: 2rem;
+  margin-left: 4rem;
 }
 
 .logo a {
@@ -26,6 +27,7 @@
 
 .routesWrapper {
   margin-left: auto;
+  margin-right: 4rem;
   display: flex;
   gap: 2rem;
   font-size: 1.3rem;
@@ -44,10 +46,4 @@
 .activeRoute a {
   text-decoration: none;
   color: black;
-}
-
-@media only screen and (max-width: 768px) {
-  .wrapper {
-    padding: 2rem;
-  }
 }
